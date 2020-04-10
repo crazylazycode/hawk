@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>hawk.com | {% block title %} shorten that url{% endblock title %}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.4/examples/cover/cover.css" rel="stylesheet">
+    <style>
+       
+        body {
+        background-size: cover;
+        background-image: url('https://cdn.quotesgram.com/img/33/91/891252653-Suicide_206.jpg')
+        }
+         .btn-link{
+            
+            text-shadow: none;
+        } 
+        
+    </style>
+</head>
+ 
+
+<body>
+    
+    <div class="cover-container w-100 h-100 p-3  mx-auto flex-column" >
+        
+
+        <div class="inner cover ">
+            
+            
+            {% block content %}
+            
+            {% endblock content %}
+            
+        </div>
+    </div>
+
+ 
+
+
+
+</body>
+</html>
